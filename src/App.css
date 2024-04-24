@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+
+
+.menu {
+  background-color: whitesmoke;
+  margin-top: 2%;
+}
+
+.navbar{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 60%;
+}
+
+.navbar h1 {
+  background-color: #fff;
+  padding-right: 220%;
+  padding-top: 2%;
+}
+
+.navbar ul {
+  background-color: #fff;
+  margin-left: 20%;
+  display: flex;
+}
+
+.navbar ul li {
+  display: flex;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.img {
+  background-image: url(../WhatsApp\ Image\ 2024-04-23\ at\ 19.52.10.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10%;
+  margin-bottom: 2%;
+}
+
+.img h1 {
+  padding-bottom: 10%;
+  color: #fff;
+  font-size: 70px;
+  text-align: center;
+}
+
+.sonluq{
+  display: flex;
+}
+
+.logo{
+ width: 100vh;
+ background-color: #fff;
+}
+
+.logo h1{
+  display: inline-flex;
+  padding-left: 8%;
+  padding-right: 15%;
+  margin-bottom: 1%;
+}
+
+.logo p{
+  display: inline-flex;
+  margin-left: 30%;
+  margin-right: 3%;
+  margin-top: 0%;
+}
+
+.subscribe {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.subscribe h1{
+  display: inline-flex;
+  padding-left: 50%;
+ padding-bottom: 1%;
+}
+
+.subscribe p{
+  display: inline-flex;
+  margin-left: 50%;
+  padding-bottom: 1%;
+}
+
+.buton{
+  display: flex;
+  background-color: #fff;
+}
+
+.email{
+  padding: 5px;
+  margin-left: 77%;
+  border-radius: 15px;
+}
+
+.subs{
+  padding: 10px;
+  margin-left: 2%;
+  border-radius: 15px;
+}
